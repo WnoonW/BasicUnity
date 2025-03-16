@@ -7,6 +7,10 @@
 [Ll]ogs/
 [Pp]ackages/com.unity.package-manager-ui/
 
+# Unity 2021+ Tundra/Bee 빌드 시스템
+[Bb]ee/
+[Tt]undra/
+
 # Never ignore Asset meta data
 !Assets/**/*.meta
 
@@ -43,6 +47,12 @@ Thumbs.db
 
 # Unity Cache
 Syscache/
+
+# VSCode 관련 설정 (개인 환경에 따라 무시 여부 결정)
+.vscode/
+
+# Unity Profiler
+MemoryCaptures/
 
 # 기타
 *.log
